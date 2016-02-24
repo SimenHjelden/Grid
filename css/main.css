@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+[class^="navigation-"] {
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.row:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.row + .row {
+  margin-top: 2%; }
+
+[class^="col-"] {
+  float: left;
+  margin-right: 2%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px 0px 20px 0px; }
+  [class^="col-"]:last-child {
+    margin-right: 0%; }
+
+.col-1 {
+  width: 6.5%; }
+
+.col-2 {
+  width: 15%; }
+
+.col-3 {
+  width: 23.5%; }
+
+.col-4 {
+  width: 32%; }
+
+.col-5 {
+  width: 40.5%; }
+
+.col-6 {
+  width: 49%; }
+
+.col-7 {
+  width: 57.5%; }
+
+.col-8 {
+  width: 66%; }
+
+.col-9 {
+  width: 74.5%; }
+
+.col-10 {
+  width: 83%; }
+
+.col-11 {
+  width: 91.5%; }
+
+.col-12 {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
